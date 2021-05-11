@@ -1,0 +1,25 @@
+table{
+    border-style:double;
+    border-color:black;
+    width:100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+tr{
+    border-style:ridge;
+    background-color: blanchedalmond;
+}
+th {
+    border-style: double;
+    
+}
+
+th:hover{
+    background-color: brown;
+}
+td:hover{
+    background-color: cadetblue;
+    font-size:x-large
+}
