@@ -1,0 +1,124 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#menu {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    margin-top: -2.5em;
+    width: 10em;
+    border-style: double ,;
+    background-color: rgba(16,16,16.5) ;
+    border-radius: 15%;
+     
+}
+
+
+body{
+    font-family: arial;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(176,224,230);
+    color: black;
+    border-color: yellow;
+    border-style: solid;
+    border-radius: 15%;
+    
+}
+
+.botaopagliari{
+    width: 10em;
+    position:fixed;
+    top: 43.5%;
+    right: 0%;
+    border: 0px;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 20%;
+    
+}
+
+
+input[type="checkbox"]{
+    display: none;
+}
+
+label{
+    background-color:none;
+    position: absolute;
+    
+}
+header{
+    padding: 0px;
+    border: 5px;
+}
+.bemvindo{
+    color:#ff0f2d;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    opacity: 10;
+    padding: 20px;
+    border-style:outset;
+    border-width: 5px;
+    border-color: red;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+
+    
+}
+.subtitulo{
+    color: #ff0f2d;
+    text-align: center;
+    background-color: rgb(44, 43, 43);
+    font-style:italic;
+    font-size: 20px;
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logopael{
+   width: 15%;
+   left: 150px;
+   top: 30px;
+   position: absolute;
+   border-style:outset;
+   border-color: #ff0f2d;
+   
+}
+
+.boneco{
+    width: 10%;
+    right: 200px;
+    position: absolute;
+    top: 5px;
+
+}
+
+body{
+    background-color: rgb(219, 214, 214);
+}
+
+.slide{
+border-radius: 50%;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="ESTILO/estilo.css">
+    <title>PAGLIARI MATERIAIS ELETRICOS</title>
+</head>
+<body>
+
+<input type="checkbox" id="check">
+<label for="check">
+  <image class="botaopagliari" src="images/botao pagliari.jpg"></image>
+</label>
+
+                    <nav>
+                        <ul id="menu">
+                          <li >  <a href=""> Home </a></li> 
+                         
+                          <li >  <a href=""> Sobre </a></li>
+                          
+                          <li >  <a href=""> Serviços </a></li>
+                         
+                          <li >  <a href=""> Contato </a></li>
+                        </ul>
+                    </nav>
+                  <header>
+                    
+                    <div  class="bemvindo">
+                      <H1 >
+                       PAGLIARI SERVIÇOS ELETRICOS <br>
+                       <h4 class="subtitulo">Pagliari e você, forças que se atraem!</h4>
+                      </H1>
+                       </div>
+
+                      </header>
+                   <img class="logopael" src="images/pael.png" alt="">
+                   <img class="boneco" src="images/logo_boneco_pagliari.png">
+
+
+                   <h2 class="w3-center">Quem somos</h2>
+
+                   <div class="w3-content w3-display-container">
+                     <img class="mySlides" src="images/gerador2.JPG" style="width:100%">
+                     <img class="mySlides" src="images/gerador1.JPG" style="width:100%">
+                     <img class="mySlides" src="images/logo.jpg" style="width:100%">
+                     <img class="mySlides" src="images/logo_boneco_pagliari.png" style="width:100%">
+                   
+                     <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                   </div>          
+
+                   
+
+                   <div id="slide">
+                   <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+                    
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      if (n > x.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = x.length}
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                    </script>
+                    </div>
+
+                 
+</body>
+</html>
